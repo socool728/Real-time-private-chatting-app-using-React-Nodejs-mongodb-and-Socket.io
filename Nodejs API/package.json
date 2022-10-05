@@ -4,7 +4,9 @@
   "description": "This Rest API for MY Angular2 Projects.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [
     "rest",
@@ -13,12 +15,14 @@
   "author": "Shashank Tiwari",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^3.0.4",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.15.2",
     "cors": "^2.8.1",
     "dotenv": "^5.0.1",
     "express": "^4.14.0",
-    "mongodb": "^2.2.19",
-    "socket.io": "^1.7.2"
-  }
+    "mongodb": "^3.1.13",
+    "socket.io": "^3.0.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
