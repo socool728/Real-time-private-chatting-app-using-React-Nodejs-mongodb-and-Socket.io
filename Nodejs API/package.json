@@ -19,6 +19,6 @@
     "dotenv": "^5.0.1",
     "express": "^4.14.0",
     "mongodb": "^2.2.19",
-    "socket.io": "^1.7.2"
+    "socket.io": "^3.0.0"
   }
 }
