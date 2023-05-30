@@ -13,7 +13,7 @@
   "author": "Shashank Tiwari",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^3.0.4",
+    "bcrypt": "^3.0.8",
     "body-parser": "^1.15.2",
     "cors": "^2.8.1",
     "dotenv": "^5.0.1",
