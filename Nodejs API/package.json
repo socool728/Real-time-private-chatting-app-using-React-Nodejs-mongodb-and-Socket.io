@@ -13,11 +13,11 @@
   "author": "Shashank Tiwari",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^3.0.4",
-    "body-parser": "^1.15.2",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.1",
     "dotenv": "^5.0.1",
-    "express": "^4.14.0",
+    "express": "^4.19.2",
     "mongodb": "^2.2.19",
     "socket.io": "^1.7.2"
   }
